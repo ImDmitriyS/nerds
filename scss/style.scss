@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.container {
+	width: 1160px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	display: table;
+	content: '';
+	clear: both;
+}
+
+.page-nav {
+	padding-top: 50px;
+}
+
+.page-logo {
+	float: left;
+	width: 160px;
+	height: 65px;
+	margin-right: 180px;
+}
+
+.nav-list {
+	float: left;
+	width: 480px;
+	font-size: 0;
+	padding: 0;
+	padding-top: 20px;
+	margin-right: 180px;
+}
+
+.nav-item {
+	display: inline-block;
+	font-size: 16px;
+	list-style: none;
+}
+
+.nav-link {
+	display: block;
+	padding: 10px 20px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	color: #fb565a;
+}
+
+.nav-link:active {
+	color: #000000;
+	opacity: 0.3;
+}
+
+.nav-cart {
+	width: 160px;
+	float: right;
+	padding-top: 20px;
+}
+
+.cart-link {
+	display: block;
+	padding: 10px 20px 10px 40px;
+	color: #000000;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.cart-link:hover {
+	color: #fb565a;
+}
+
+.cart-link:active {
+	color: #000000;
+	opacity: 0.3;
+}
