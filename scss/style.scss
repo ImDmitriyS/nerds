@@ -445,6 +445,28 @@ body {
 	clear: both;
 }
 
+.btn {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 16px 54px;
+  background-color: #fb565a;
+  border-radius: 3px;
+}
+
+.page-header {
+	background-color: #eeeeee;
+	margin-bottom: 80px;
+}
+
 .page-nav {
 	padding-top: 50px;
 }
@@ -497,11 +519,12 @@ body {
 
 .cart-link {
 	display: block;
-	padding: 10px 20px 10px 40px;
+	padding: 10px 0 10px 40px;
 	color: #000000;
 	font-weight: 500;
 	text-transform: uppercase;
 	text-decoration: none;
+	text-align: right;
 }
 
 .cart-link:hover {
@@ -511,4 +534,33 @@ body {
 .cart-link:active {
 	color: #000000;
 	opacity: 0.3;
+}
+
+.slider {
+	
+}
+
+.slide-descr {
+	float: left;
+	width: 400px;
+}
+
+.slide-title {
+	margin-top: 80px;
+	margin-bottom: 20px;
+	font-size: 55px;
+	font-weight: 500;
+	line-height: 65px;
+}
+
+.slide-text {
+	margin-top: 0;
+	color: #283136;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+.slide-1 {
+	min-height: 431px;
+	background: url("../img/slide1.png") no-repeat 430px 0;
 }
