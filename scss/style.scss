@@ -460,6 +460,8 @@ body {
   padding: 16px 54px;
   background-color: #fb565a;
   border-radius: 3px;
+  border: none;
+  outline: none;
 }
 
 .page-header {
@@ -563,4 +565,43 @@ body {
 .slide-1 {
 	min-height: 431px;
 	background: url("../img/slide1.png") no-repeat 430px 0;
+}
+
+.feature {
+	width: 300px;
+	margin-right: 100px;
+	margin-bottom: 40px;
+	float: left;
+	border-bottom: 2px solid #eeeeee;
+}
+
+.feature:last-child {
+	margin-right: 0;
+}
+
+.feature-title {
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.fearure-content {
+	color: #283136;
+	margin-bottom: 30px;
+}
+
+.feature-btn {
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-bottom: 80px;
+}
+
+.feature-btn--green {
+	background-color: #00ca74;
+}
+
+.feature-btn--yellow {
+	background-color: #efc84a;
 }
