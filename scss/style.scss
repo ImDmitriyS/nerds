@@ -777,3 +777,41 @@ body {
 	background-position: 0 -1300px;
 	height: 84px;
 }
+
+.map {
+	padding-top: 55px;
+	background: url("../img/map.jpg") 0 0 no-repeat;
+}
+
+.map-form {
+	width: 220px;
+	height: 210px;
+	padding: 48px;
+	background-color: #fff;
+}
+
+.map-form h4{
+	font-weight: 700;
+	font-size: 18px;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+.map-btn {
+	padding: 16px 44px;
+}
+
+.map-form p{
+	color: #666666;
+	font-size: 16px;
+	line-height: 18px;
+	margin-top: 0;
+}
+
+.map-address {
+	margin-bottom: 20px;
+}
+
+.map-tel {
+	margin-bottom: 35px;
+}
